@@ -1,0 +1,192 @@
+<div class="feed-container" #feedContainer>
+  <div class="feed-sidebar" #feedSidebar>
+    <app-feed-sidebar
+      (toggleSidebarEvent)="toggleSidebarEvent($event, toggleSidebar.Left)"
+    ></app-feed-sidebar>
+    <app-toggle-sidebar
+      #toggleLeftSidebar
+      [container]="feedContainer"
+      [sidebar]="feedSidebar"
+      [toggleSidebar]="toggleSidebar.Left"
+      [text]="'Collapse sidebar'"
+    ></app-toggle-sidebar>
+  </div>
+  <div class="feed-content">
+    <div class="search-bar">
+      <input
+        class="search-text-box"
+        [(ngModel)]="searchTerm"
+        placeholder="Search..."
+      />
+      <button>
+        <svg viewBox="0 0 1024 1024">
+          <path
+            class="path1"
+            d="M848.471 928l-263.059-263.059c-48.941 36.706-110.118 55.059-177.412 55.059-171.294 0-312-140.706-312-312s140.706-312 312-312c171.294 0 312 140.706 312 312 0 67.294-24.471 128.471-55.059 177.412l263.059 263.059-79.529 79.529zM189.623 408.078c0 121.364 97.091 218.455 218.455 218.455s218.455-97.091 218.455-218.455c0-121.364-103.159-218.455-218.455-218.455-121.364 0-218.455 97.091-218.455 218.455z"
+          ></path>
+        </svg>
+      </button>
+    </div>
+    <div class="hashtags">
+      <div
+        class="tag-content"
+        *ngFor="let hashtag of hashtags"
+        (click)="onFilterByHashtag(hashtag)"
+      >
+        <span>#{{ hashtag }}</span>
+      </div>
+    </div>
+    <div class="feed-panel">
+      <cdk-virtual-scroll-viewport class="feed-viewport" [itemSize]="20">
+        <dx-scroll-view
+          class="feed-viewport-scroll-view"
+          [scrollByContent]="true"
+          [scrollByThumb]="true"
+          [bounceEnabled]="true"
+          (onPullDown)="updateTopContent($event)"
+          (onReachBottom)="updateBottomContent($event)"
+        >
+          <div class="post-grid" #postGridElement>
+            <div
+              #itemElement
+              *cdkVirtualFor="let item of feedData; let i = index"
+              class="post-item"
+              [class.facebook]="item.sourceType == sourceType.Facebook"
+              [class.tiktok]="item.sourceType == sourceType.TikTok"
+              [class.medium]="item.sourceType == sourceType.Medium"
+              [style.grid-row-end]="getGridRowEnd(postGridElement, itemElement)"
+            >
+              <div class="post-content">
+                <div class="post-header">
+                  <div class="post-author">
+                    <img
+                      class="post-author-avatar"
+                      [src]="item.userAvatar"
+                      alt="avatar"
+                    />
+                    <div class="post-author-name">
+                      <span>{{ item.createdBy }}</span>
+                    </div>
+                  </div>
+                  <div class="post-type">
+                    <div class="post-type-icon"></div>
+                  </div>
+                </div>
+                <div class="post-interactive">
+                  <div class="like mr-1 d-flex">
+                    <span class="material-symbols-outlined like-icon">
+                      thumb_up
+                    </span>
+                    <span> {{ item.likes }} </span>
+                  </div>
+                  <div class="comment mr-1 d-flex">
+                    <span class="material-symbols-outlined chat-icon">
+                      chat
+                    </span>
+                    <span> {{ item.comments }} </span>
+                  </div>
+                  <div class="share mr-1 d-flex">
+                    <span class="material-symbols-outlined share-icon">
+                      share
+                    </span>
+                    <span> {{ item.shares }} </span>
+                  </div>
+                  <div class="view mr-1 d-flex">
+                    <span class="material-symbols-outlined visibility-icon">
+                      visibility
+                    </span>
+                    <span> {{ item.views }} </span>
+                  </div>
+                </div>
+                <div class="post-details mt-2">
+                  <div
+                    *ngIf="item.sourceType == sourceType.Medium"
+                    [innerHTML]="item.title"
+                  ></div>
+                  <div
+                    *ngIf="
+                      item.sourceType == sourceType.Medium ||
+                      item.sourceType == sourceType.Facebook
+                    "
+                    [class.limit-text-height]="
+                      item.isReadMore && item.content?.length > feedLimitText
+                    "
+                    [innerHTML]="item.content | safe"
+                  ></div>
+                  <div *ngIf="item.sourceType == sourceType.TikTok">
+                    <div
+                      [innerHTML]="item.title | safe"
+                      [class.limit-text-height]="
+                        item.isReadMore && item.title?.length > feedLimitText
+                      "
+                    ></div>
+
+                    <video
+                      appVideoAttributes
+                      class="mt-2"
+                      style="width: 100%; height: 420px"
+                      controls
+                    >
+                      <source src="{{ item.content }}" type="video/mp4" />
+                      Your browser does not support the video tag.
+                    </video>
+                  </div>
+                  <div
+                    #imageElement
+                    *ngIf="item.images?.length > 0"
+                    class="post-images mt-2"
+                  >
+                    {{ imageElement | imagesGrid: item.images }}
+                  </div>
+                </div>
+                <div class="post-footer">
+                  <div class="post-source mt-2">
+                    Source:
+                    <a href="{{ item.sourceUrl }}" target="_blank">{{
+                      item.sourceUrl
+                    }}</a>
+                  </div>
+                  <div class="post-time d-flex mt-1">
+                    <div class="post-created-time">
+                      {{ item.createdAt | timeAgo }}
+                    </div>
+                    <div
+                      class="post-collapse-expand"
+                      *ngIf="
+                        (item.content?.length > feedLimitText &&
+                          (item.sourceType == sourceType.Facebook ||
+                            item.sourceType == sourceType.Medium)) ||
+                        (item.title?.length > feedLimitText &&
+                          item.sourceType == sourceType.TikTok)
+                      "
+                    >
+                      <span
+                        class="material-symbols-outlined"
+                        (click)="togglePostContent(item)"
+                        title="{{ item.isReadMore ? 'Expand' : 'Collapse' }}"
+                      >
+                        {{ item.isReadMore ? "expand_more" : "expand_less" }}
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </dx-scroll-view>
+      </cdk-virtual-scroll-viewport>
+    </div>
+  </div>
+  <div class="feed-summary" #feedSummary>
+    <app-feed-summary
+      (toggleSidebarEvent)="toggleSidebarEvent($event, toggleSidebar.Right)"
+    ></app-feed-summary>
+    <app-toggle-sidebar
+      #toggleRightSidebar
+      [container]="feedContainer"
+      [sidebar]="feedSummary"
+      [toggleSidebar]="toggleSidebar.Right"
+      [text]="'Collapse summary'"
+    ></app-toggle-sidebar>
+  </div>
+</div>

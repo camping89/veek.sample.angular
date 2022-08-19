@@ -1,0 +1,22 @@
+<div class="feed-summary-container">
+  <div class="title" (click)="onToggleSidebar()">Trending Hashtags</div>
+  <div class="divider"></div>
+  <div
+    class="hashtag"
+    [class.even]="even"
+    [class.odd]="odd"
+    *ngFor="
+      let hashtag of hashtags;
+      let i = index;
+      let even = even;
+      let odd = odd
+    "
+  >
+    <div class="hashtag-index">{{ i + 1 }}</div>
+    <div class="hashtag-name">{{ hashtag.name }}</div>
+    <div class="hashtag-mention">
+      <div>{{ hashtag.mention }}</div>
+      <div>Mentions</div>
+    </div>
+  </div>
+</div>

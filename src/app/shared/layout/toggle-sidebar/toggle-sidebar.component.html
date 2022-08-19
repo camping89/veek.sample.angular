@@ -1,0 +1,19 @@
+<div class="toggle-sidebar-container">
+  <div (click)="toggle()">
+    <span
+      class="material-symbols-outlined"
+      *ngIf="sidebarType.Left == toggleSidebar"
+    >
+      {{ isCollapsed ? "arrow_forward" : "arrow_back" }}
+    </span>
+    <span
+      class="material-symbols-outlined"
+      *ngIf="sidebarType.Right == toggleSidebar"
+    >
+      {{ isCollapsed ? "arrow_back" : "arrow_forward" }}
+    </span>
+  </div>
+  <div class="arrow-text" *ngIf="!isCollapsed" (click)="toggle()">
+    {{ text ?? "Collapse sidebar" }}
+  </div>
+</div>

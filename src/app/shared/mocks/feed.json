@@ -1,0 +1,399 @@
+[
+  {
+    "createdBy": "Tuan Tran",
+    "createdAt": "2020-01-01",
+    "userAvatar": "https://www.w3schools.com/howto/img_avatar2.png",
+    "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    "images": [
+      "https://i.imgur.com/C2FSuws.jpg",
+      "https://imgur.com/ugRuIHq.jpg",
+      "https://i.imgur.com/7tWYNvv.jpg",
+      "https://i.imgur.com/SeLoG8d.jpg",
+      "https://i.imgur.com/C2FSuws.jpg",
+      "https://imgur.com/ugRuIHq.jpg",
+      "https://i.imgur.com/7tWYNvv.jpg",
+      "https://i.imgur.com/SeLoG8d.jpg"
+    ],
+    "sourceType": 1,
+    "sourceUrl": "https://js.devexpress.com/Documentation/ApiReference/UI_Components/dxScrollView",
+    "date": "2020-01-01",
+    "hashtags": ["viral", "instagram", "explorepage", "instagood"],
+    "likes": 100,
+    "comments": 200,
+    "shares": 300,
+    "views": 400,
+    "isReadMore": true
+  },
+
+  {
+    "createdBy": "Tuan Tran",
+    "createdAt": "2020-01-01",
+    "userAvatar": "https://www.w3schools.com/howto/img_avatar2.png",
+    "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    "content": "lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    "images": ["https://i.imgur.com/C2FSuws.jpg"],
+    "sourceType": 1,
+    "sourceUrl": "https://js.devexpress.com/Documentation/ApiReference/UI_Components/dxScrollView",
+    "date": "2020-01-01",
+    "hashtags": ["viral", "instagram", "explorepage", "instagood"],
+    "likes": 100,
+    "comments": 200,
+    "shares": 300,
+    "views": 400,
+    "isReadMore": true
+  },
+  {
+    "createdBy": "Tuan Tran",
+    "createdAt": "2020-01-01",
+    "userAvatar": "https://www.w3schools.com/howto/img_avatar2.png",
+    "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    "content": "https://v16-webapp.tiktok.com/5798e0cbe571f519c8cca1ff791b7ae3/62f53437/video/tos/useast2a/tos-useast2a-pve-0037-aiso/17073436459e46bd82e836a32188266e/?a=1988&amp;ch=0&amp;cr=0&amp;dr=0&amp;lr=tiktok_m&amp;cd=0%7C0%7C1%7C0&amp;cv=1&amp;br=4076&amp;bt=2038&amp;cs=0&amp;ds=3&amp;ft=z_piDPWT2NvjVDXqPOzfuCYQFAe4nRQjlEK~2tOB&amp;mime_type=video_mp4&amp;qs=0&amp;rc=Z2U7OjY7ZDlmNGY0ZTgzOEBpM2pyNTY6ZmllZTMzZjgzM0AxYjBeMzI1XjIxNC1hYzIxYSNtL2BhcjQwLmpgLS1kL2Nzcw%3D%3D&amp;l=202208111054080102452431180508BB39&amp;btag=80000",
+    "sourceType": 2,
+    "sourceUrl": "https://www.tiktok.com/@tryy__69/video/7128267111679462682?is_copy_url=1&is_from_webapp=v1",
+    "date": "2020-01-01",
+    "hashtags": ["viral", "instagram", "explorepage", "instagood"],
+    "likes": 100,
+    "comments": 200,
+    "shares": 300,
+    "views": 400,
+    "isReadMore": true
+  },
+  {
+    "createdBy": "Tuan Tran",
+    "createdAt": "2020-01-01",
+    "userAvatar": "https://www.w3schools.com/howto/img_avatar2.png",
+    "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    "content": "lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    "images": [
+      "https://i.imgur.com/C2FSuws.jpg",
+      "https://imgur.com/ugRuIHq.jpg"
+    ],
+    "sourceType": 1,
+    "sourceUrl": "https://js.devexpress.com/Documentation/ApiReference/UI_Components/dxScrollView",
+    "date": "2020-01-01",
+    "hashtags": ["viral", "instagram", "explorepage", "instagood"],
+    "likes": 100,
+    "comments": 200,
+    "shares": 300,
+    "views": 400,
+    "isReadMore": true
+  },
+
+  {
+    "createdBy": "Tuan Tran",
+    "createdAt": "2020-01-01",
+    "userAvatar": "https://www.w3schools.com/howto/img_avatar2.png",
+    "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    "content": "lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    "images": [
+      "https://i.imgur.com/C2FSuws.jpg",
+      "https://imgur.com/ugRuIHq.jpg",
+      "https://i.imgur.com/7tWYNvv.jpg",
+      "https://i.imgur.com/SeLoG8d.jpg",
+      "https://i.imgur.com/SeLoG8d.jpg"
+    ],
+    "sourceType": 4,
+    "sourceUrl": "https://js.devexpress.com/Documentation/ApiReference/UI_Components/dxScrollView",
+    "date": "2020-01-01",
+    "hashtags": ["viral", "instagram", "explorepage", "instagood"],
+    "likes": 100,
+    "comments": 200,
+    "shares": 300,
+    "views": 400,
+    "isReadMore": true
+  },
+  {
+    "createdBy": "Tuan Tran",
+    "createdAt": "2020-01-01",
+    "userAvatar": "https://www.w3schools.com/howto/img_avatar2.png",
+    "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    "content": "lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    "images": [
+      "https://i.imgur.com/C2FSuws.jpg",
+      "https://imgur.com/ugRuIHq.jpg",
+      "https://i.imgur.com/7tWYNvv.jpg"
+    ],
+    "sourceType": 1,
+    "sourceUrl": "https://js.devexpress.com/Documentation/ApiReference/UI_Components/dxScrollView",
+    "date": "2020-01-01",
+    "hashtags": ["viral", "instagram", "explorepage", "instagood"],
+    "likes": 100,
+    "comments": 200,
+    "shares": 300,
+    "views": 400,
+    "isReadMore": true
+  },
+
+  {
+    "createdBy": "Tuan Tran",
+    "createdAt": "2020-01-01",
+    "userAvatar": "https://www.w3schools.com/howto/img_avatar2.png",
+    "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    "content": "lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    "images": [
+      "https://i.imgur.com/C2FSuws.jpg",
+      "https://imgur.com/ugRuIHq.jpg",
+      "https://i.imgur.com/7tWYNvv.jpg",
+      "https://i.imgur.com/SeLoG8d.jpg"
+    ],
+    "sourceType": 1,
+    "sourceUrl": "https://js.devexpress.com/Documentation/ApiReference/UI_Components/dxScrollView",
+    "date": "2020-01-01",
+    "hashtags": ["viral", "instagram", "explorepage", "instagood"],
+    "likes": 100,
+    "comments": 200,
+    "shares": 300,
+    "views": 400,
+    "isReadMore": true
+  },
+  {
+    "createdBy": "Tuan Tran",
+    "createdAt": "2020-01-01",
+    "userAvatar": "https://www.w3schools.com/howto/img_avatar2.png",
+    "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    "content": "lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    "images": [
+      "https://i.imgur.com/C2FSuws.jpg",
+      "https://imgur.com/ugRuIHq.jpg",
+      "https://i.imgur.com/7tWYNvv.jpg",
+      "https://i.imgur.com/SeLoG8d.jpg"
+    ],
+    "sourceType": 1,
+    "sourceUrl": "https://js.devexpress.com/Documentation/ApiReference/UI_Components/dxScrollView",
+    "date": "2020-01-01",
+    "hashtags": ["viral", "instagram", "explorepage", "instagood"],
+    "likes": 100,
+    "comments": 200,
+    "shares": 300,
+    "views": 400,
+    "isReadMore": true
+  },
+
+  {
+    "createdBy": "Tuan Tran",
+    "createdAt": "2020-01-01",
+    "userAvatar": "https://www.w3schools.com/howto/img_avatar2.png",
+    "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    "content": "lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    "images": [
+      "https://i.imgur.com/C2FSuws.jpg",
+      "https://imgur.com/ugRuIHq.jpg",
+      "https://i.imgur.com/7tWYNvv.jpg",
+      "https://i.imgur.com/SeLoG8d.jpg"
+    ],
+    "sourceType": 1,
+    "sourceUrl": "https://js.devexpress.com/Documentation/ApiReference/UI_Components/dxScrollView",
+    "date": "2020-01-01",
+    "hashtags": ["viral", "instagram", "explorepage", "instagood"],
+    "likes": 100,
+    "comments": 200,
+    "shares": 300,
+    "views": 400,
+    "isReadMore": true
+  },
+
+  {
+    "createdBy": "Tuan Tran",
+    "createdAt": "2020-01-01",
+    "userAvatar": "https://www.w3schools.com/howto/img_avatar2.png",
+    "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    "content": "lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    "images": [
+      "https://i.imgur.com/C2FSuws.jpg",
+      "https://imgur.com/ugRuIHq.jpg",
+      "https://i.imgur.com/7tWYNvv.jpg",
+      "https://i.imgur.com/SeLoG8d.jpg"
+    ],
+    "sourceType": 1,
+    "sourceUrl": "https://js.devexpress.com/Documentation/ApiReference/UI_Components/dxScrollView",
+    "date": "2020-01-01",
+    "hashtags": ["viral", "instagram", "explorepage", "instagood"],
+    "likes": 100,
+    "comments": 200,
+    "shares": 300,
+    "views": 400,
+    "isReadMore": true
+  },
+  {
+    "createdBy": "Tuan Tran",
+    "createdAt": "2020-01-01",
+    "userAvatar": "https://www.w3schools.com/howto/img_avatar2.png",
+    "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    "content": "lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    "images": [
+      "https://i.imgur.com/C2FSuws.jpg",
+      "https://imgur.com/ugRuIHq.jpg",
+      "https://i.imgur.com/7tWYNvv.jpg",
+      "https://i.imgur.com/SeLoG8d.jpg"
+    ],
+    "sourceType": 1,
+    "sourceUrl": "https://js.devexpress.com/Documentation/ApiReference/UI_Components/dxScrollView",
+    "date": "2020-01-01",
+    "hashtags": ["viral", "instagram", "explorepage", "instagood"],
+    "likes": 100,
+    "comments": 200,
+    "shares": 300,
+    "views": 400,
+    "isReadMore": true
+  },
+
+  {
+    "createdBy": "Tuan Tran",
+    "createdAt": "2020-01-01",
+    "userAvatar": "https://www.w3schools.com/howto/img_avatar2.png",
+    "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    "content": "lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    "images": [
+      "https://i.imgur.com/C2FSuws.jpg",
+      "https://imgur.com/ugRuIHq.jpg",
+      "https://i.imgur.com/7tWYNvv.jpg",
+      "https://i.imgur.com/SeLoG8d.jpg"
+    ],
+    "sourceType": 1,
+    "sourceUrl": "https://js.devexpress.com/Documentation/ApiReference/UI_Components/dxScrollView",
+    "date": "2020-01-01",
+    "hashtags": ["viral", "instagram", "explorepage", "instagood"],
+    "likes": 100,
+    "comments": 200,
+    "shares": 300,
+    "views": 400,
+    "isReadMore": true
+  },
+
+  {
+    "createdBy": "Tuan Tran",
+    "createdAt": "2020-01-01",
+    "userAvatar": "https://www.w3schools.com/howto/img_avatar2.png",
+    "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    "content": "lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    "images": [
+      "https://i.imgur.com/C2FSuws.jpg",
+      "https://imgur.com/ugRuIHq.jpg",
+      "https://i.imgur.com/7tWYNvv.jpg",
+      "https://i.imgur.com/SeLoG8d.jpg"
+    ],
+    "sourceType": 1,
+    "sourceUrl": "https://js.devexpress.com/Documentation/ApiReference/UI_Components/dxScrollView",
+    "date": "2020-01-01",
+    "hashtags": ["viral", "instagram", "explorepage", "instagood"],
+    "likes": 100,
+    "comments": 200,
+    "shares": 300,
+    "views": 400,
+    "isReadMore": true
+  },
+  {
+    "createdBy": "Tuan Tran",
+    "createdAt": "2020-01-01",
+    "userAvatar": "https://www.w3schools.com/howto/img_avatar2.png",
+    "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    "content": "lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    "images": [
+      "https://i.imgur.com/C2FSuws.jpg",
+      "https://imgur.com/ugRuIHq.jpg",
+      "https://i.imgur.com/7tWYNvv.jpg",
+      "https://i.imgur.com/SeLoG8d.jpg"
+    ],
+    "sourceType": 1,
+    "sourceUrl": "https://js.devexpress.com/Documentation/ApiReference/UI_Components/dxScrollView",
+    "date": "2020-01-01",
+    "hashtags": ["viral", "instagram", "explorepage", "instagood"],
+    "likes": 100,
+    "comments": 200,
+    "shares": 300,
+    "views": 400,
+    "isReadMore": true
+  },
+
+  {
+    "createdBy": "Tuan Tran",
+    "createdAt": "2020-01-01",
+    "userAvatar": "https://www.w3schools.com/howto/img_avatar2.png",
+    "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    "content": "lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    "images": [
+      "https://i.imgur.com/C2FSuws.jpg",
+      "https://imgur.com/ugRuIHq.jpg",
+      "https://i.imgur.com/7tWYNvv.jpg",
+      "https://i.imgur.com/SeLoG8d.jpg"
+    ],
+    "sourceType": 1,
+    "sourceUrl": "https://js.devexpress.com/Documentation/ApiReference/UI_Components/dxScrollView",
+    "date": "2020-01-01",
+    "hashtags": ["viral", "instagram", "explorepage", "instagood"],
+    "likes": 100,
+    "comments": 200,
+    "shares": 300,
+    "views": 400,
+    "isReadMore": true
+  },
+
+  {
+    "createdBy": "Tuan Tran",
+    "createdAt": "2020-01-01",
+    "userAvatar": "https://www.w3schools.com/howto/img_avatar2.png",
+    "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    "content": "lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    "images": [
+      "https://i.imgur.com/C2FSuws.jpg",
+      "https://imgur.com/ugRuIHq.jpg",
+      "https://i.imgur.com/7tWYNvv.jpg",
+      "https://i.imgur.com/SeLoG8d.jpg"
+    ],
+    "sourceType": 1,
+    "sourceUrl": "https://js.devexpress.com/Documentation/ApiReference/UI_Components/dxScrollView",
+    "date": "2020-01-01",
+    "hashtags": ["viral", "instagram", "explorepage", "instagood"],
+    "likes": 100,
+    "comments": 200,
+    "shares": 300,
+    "views": 400,
+    "isReadMore": true
+  },
+  {
+    "createdBy": "Tuan Tran",
+    "createdAt": "2020-01-01",
+    "userAvatar": "https://www.w3schools.com/howto/img_avatar2.png",
+    "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    "content": "lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    "images": [
+      "https://i.imgur.com/C2FSuws.jpg",
+      "https://imgur.com/ugRuIHq.jpg",
+      "https://i.imgur.com/7tWYNvv.jpg",
+      "https://i.imgur.com/SeLoG8d.jpg"
+    ],
+    "sourceType": 1,
+    "sourceUrl": "https://js.devexpress.com/Documentation/ApiReference/UI_Components/dxScrollView",
+    "date": "2020-01-01",
+    "hashtags": ["viral", "instagram", "explorepage", "instagood"],
+    "likes": 100,
+    "comments": 200,
+    "shares": 300,
+    "views": 400,
+    "isReadMore": true
+  },
+
+  {
+    "createdBy": "Tuan Tran",
+    "createdAt": "2020-01-01",
+    "userAvatar": "https://www.w3schools.com/howto/img_avatar2.png",
+    "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    "content": "lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    "images": [
+      "https://i.imgur.com/C2FSuws.jpg",
+      "https://imgur.com/ugRuIHq.jpg",
+      "https://i.imgur.com/7tWYNvv.jpg",
+      "https://i.imgur.com/SeLoG8d.jpg"
+    ],
+    "sourceType": 1,
+    "sourceUrl": "https://js.devexpress.com/Documentation/ApiReference/UI_Components/dxScrollView",
+    "date": "2020-01-01",
+    "hashtags": ["viral", "instagram", "explorepage", "instagood"],
+    "likes": 100,
+    "comments": 200,
+    "shares": 300,
+    "views": 400,
+    "isReadMore": true
+  }
+]

@@ -1,0 +1,39 @@
+<div class="row-images">
+  <div
+    class="column"
+    [ngClass]="{
+      one: urls.length === 1,
+      two: urls.length === 2,
+      three: urls.length === 3
+    }"
+    *ngFor="let url of urls; let i = index"
+  >
+    <img src="{{ url }}" style="width: 100%" (click)="onViewImage(i)" />
+  </div>
+</div>
+
+<dx-popup
+  [width]="740"
+  [height]="550"
+  [dragEnabled]="false"
+  [hideOnOutsideClick]="true"
+  [showCloseButton]="true"
+  container=".dx-viewport"
+  (onHidden)="onHiddenPopup"
+  [(visible)]="popupVisible"
+>
+  <div *dxTemplate="let data of 'content'">
+    <dx-gallery
+      #gallery
+      [dataSource]="urls"
+      [height]="470"
+      [width]="700"
+      [slideshowDelay]="0"
+      [selectedIndex]="selectedIndex"
+      [loop]="true"
+      [showNavButtons]="true"
+      [showIndicator]="true"
+      
+    ></dx-gallery>
+  </div>
+</dx-popup>

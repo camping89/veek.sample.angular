@@ -1,0 +1,41 @@
+.feed-summary-container {
+  height: 100%;
+
+  .title {
+    font-size: 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+
+  .divider {
+    border-bottom: 1px solid #e3e3e3;
+    margin-bottom: 15px;
+  }
+
+  .hashtag {
+    display: grid;
+    grid-template-columns: 30px auto 100px;
+    margin-bottom: 10px;
+    align-items: center;
+    padding: 10px;
+    
+    &.even {
+      background-color: rgb(241 241 241);
+      padding: 10px;
+    }
+    
+    &.odd {
+      padding: 0 10px 0 10px;
+    }
+
+    .hashtag-name {
+      float: left;
+    }
+
+    .hashtag-mention {
+      float: right;
+      text-align: end;
+      align-items: center;
+    }
+  }
+}

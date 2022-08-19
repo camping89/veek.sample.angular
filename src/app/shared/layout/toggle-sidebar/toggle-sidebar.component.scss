@@ -1,0 +1,23 @@
+.toggle-sidebar-container {
+  display: flex;
+  
+  .arrow-right {
+    background-image: url("/assets/icons/arrow-right.png");
+    height: 24px;
+    width: 24px;
+    cursor: pointer;
+  }
+
+  .arrow-left {
+    background-image: url("/assets/icons/arrow-left.png");
+    height: 24px;
+    width: 24px;
+    cursor: pointer;
+  }
+
+  .arrow-text {
+    margin-left: 10px;
+    margin-top: 2px;
+    cursor: pointer;
+  }
+}

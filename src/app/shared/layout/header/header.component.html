@@ -1,0 +1,48 @@
+<div class="header-container">
+  <nav class="navbar">
+    <!-- LOGO -->
+    <div class="logo">VEEK</div>
+    <!-- NAVIGATION MENU -->
+    <ul class="nav-links">
+      <!-- USING CHECKBOX HACK -->
+      <input type="checkbox" id="checkbox_toggle" />
+      <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+      <!-- NAVIGATION MENUS -->
+      <div class="menu">
+        <li
+          routerLinkActive="active"
+          [routerLinkActiveOptions]="{ exact: true }"
+        >
+          <a [routerLink]="['/feeds']">Feeds</a>
+        </li>
+        <li
+          routerLinkActive="active"
+          [routerLinkActiveOptions]="{ exact: true }"
+        >
+          <a [routerLink]="['/hashtags']">Hashtags</a>
+        </li>
+        <!-- <li class="services">
+          <a href="/">Services</a>
+          <ul class="dropdown">
+            <li><a href="">Dropdown 1 </a></li>
+            <li><a href="">Dropdown 2</a></li>
+          </ul>
+        </li>
+        <li><a href="">Pricing</a></li>
+        <li><a href="">Contact</a></li> -->
+      </div>
+    </ul>
+
+    <div class="profile-avatar">
+      <img
+        src="https://www.w3schools.com/howto/img_avatar2.png"
+        alt="Avatar"
+        class="avatar"
+      />
+      <ul class="dropdown dropdown-avatar">
+        <li (click)="onViewUserProfile()">View profile</li>
+        <li (click)="onLogout()">Log out</li>
+      </ul>
+    </div>
+  </nav>
+</div>

@@ -1,0 +1,50 @@
+/* To learn more about this file see: https://angular.io/config/tsconfig. */
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "baseUrl": "./",
+    "outDir": "./dist/out-tsc",
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "noImplicitOverride": true,
+    "noPropertyAccessFromIndexSignature": false,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "sourceMap": true,
+    "declaration": false,
+    "downlevelIteration": true,
+    "experimentalDecorators": true,
+    "moduleResolution": "node",
+    "importHelpers": true,
+    "target": "es2020",
+    "module": "es2020",
+    "lib": ["es2020", "dom"],
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "paths": {
+      "@app/layout": ["src/app/shared/layout"],
+      "@app/social-data-hub": ["src/app/social-data-hub"],
+      "@app/discussion-analytics": ["src/app/discussion-analytics"],
+      "@app/shared-components": ["src/app/shared/components"],
+      "@app/shared-pipes": ["src/app/shared/pipes"],
+      "@app/services": ["src/app/shared/services"],
+      "@app/auth": ["src/app/auth"],
+      "@app/interceptors": ["src/app/shared/interceptors"],
+      "@app/guards": ["src/app/shared/guards"],
+      "@app/models": ["src/app/shared/models"],
+      "@app/enums": ["src/app/shared/enums"],
+      "@app/helpers": ["src/app/shared/helpers"],
+      "@app/environments": ["src/environments/environment.ts"],
+      "@app/mocks": ["src/app/shared/mocks/*.json"],
+      "@app/shared-directives": ["src/app/shared/directives"],
+      "@app/user-profile": ["src/app/account"],
+    }
+  },
+  "angularCompilerOptions": {
+    "enableI18nLegacyMessageIdFormat": false,
+    "strictInjectionParameters": true,
+    "strictInputAccessModifiers": true,
+    "strictTemplates": true
+  }
+}
